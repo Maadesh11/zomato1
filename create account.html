@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <!-- <link rel="icon" href="zomato1.png"> -->
+   
+    <style>
+        a{
+            text-decoration: none;
+        }
+        input:hover{
+            background-color:lightskyblue;
+
+        }form:hover{
+            background-color: palevioletred;
+        } 
+        @keyframes changeColor {
+            0%{
+                background-color: lightsalmon;
+            }
+            50%{
+                background-color: lightslategray;
+            }
+            100%{
+                background-color: violet;
+            }
+        }
+         .bgcolor{
+            width: 100px;
+            height: 100px;
+           background-color:  lightsalmon;
+            animation: changeColor 3s infinite;
+
+        }
+        
+            
+        
+       
+    </style>
+</head>
+<body bgcolor="lightsalmon">
+    <form action="index.html">
+       
+        <fieldset>
+           
+            <legend>sign up</legend> 
+            <center>
+            <label for="name">Full Name</label>
+            <input type="text" name="" id="name" required pattern="[a-zA-Z]*" placeholder="Full Name"><br><br>
+            <label for="gmail">mail</label>
+            <input type="email" name="" id="gmail" required placeholder="Email"><br><br>
+            <input type="checkbox" name="" id=""required>
+            <label for=""><mark>tems and conditions</mark></label><br><br>
+            <label for="account"></label>
+            <input type="text" name="" id="account" placeholder="create account">
+                <center>or</center>
+                <label for="mail"></label>
+                <input type="email" name="" id="mail" placeholder="continue with google">
+                <p>ALREADY HAVE AN ACCOUNT? <mark></mark></p>
+                <a href="login.html"><mark></mark></a>
+               <button> sign in</button>
+                </center>
+        </fieldset>
+    </form>
+</body>
+</html>

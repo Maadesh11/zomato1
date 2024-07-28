@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" href="zomato1.png">
+</head>
+<style>
+    label:hover{
+        background-color: aquamarine;
+        
+    }
+    form{
+        color: gray;
+    }
+    form:hover{
+        background-color: khaki;
+    }
+    a{
+        text-decoration: none;
+    }
+    input:hover{
+        background-color:lightsalmon;
+
+    }
+    legend::first-letter{
+        font-size: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aqua;
+
+}
+</style>
+<body bgcolor="lightcoral">
+    <form action="index.html">
+        <fieldset>
+        <legend>LOG IN</legend><center>
+        <label for="num">phone_number</label>
+        <input type="number" name="" id="num" required pattern="[6-9]{1},[0-9]{9}" placeholder="phonenumber"><br>
+           <pre><h2>or</h2></pre>
+            <label for="mail">gmail</label>
+            <input type="email" name="" id="mail" required><br>
+            <label for="google">google</label>
+            <input type="text" name="" id="google" required><br>
+            <h3>NEW USER ? <mark ><a href="create account.html"></a></mark> </h3>
+            <button>CREATE ACCOUNT</button>
+                        </center>
+    </fieldset>
+   
+   
+    </form>
+</body>
+</html>
